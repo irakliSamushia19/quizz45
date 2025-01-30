@@ -14,7 +14,7 @@ const Profile: React.FC = () => {
         }}>
             <h1 style={{
                 color: '#2c3e50',
-                fontSize: '2.5rem',
+                fontSize: '3.5rem',
                 textAlign: 'center'
             }}>
                 hell yeah {name || 'am jira'}

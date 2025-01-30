@@ -54,7 +54,7 @@ const PhotoGallery: React.FC = () => {
         overflow: 'hidden',
         transition: 'box-shadow 0.3s, transform 0.3s',
         cursor: 'pointer',
-        boxShadow: activePhoto ? '0 8px 16px rgba(0, 0, 0, 0.2)' : '0 4px 8px rgba(0, 0, 0, 0.1)',
+        boxShadow: activePhoto ? '0 8px 16px rgba(0, 0, 0, 0.2)' : '0 4px 8px rgba(255, 2, 2, 0.1)',
         transform: activePhoto ? 'translateY(-6px)' : 'translateY(0)'
     };
 
@@ -91,14 +91,14 @@ const PhotoGallery: React.FC = () => {
         <div style={galleryWrapperStyle}>
             <h1 style={
                 {
-                    fontSize: '2.4rem',
+                    fontSize: '3rem',
                     color: '#34495e',
                     textAlign: 'center',
                     marginBottom: '2rem',
                     paddingBottom: '0.5rem',
-                    borderBottom: '2px solid #3498db'
+                    borderBottom: '2px solidrgb(0, 0, 0)'
                 }
-            }>Our Photo Gallery</h1>
+            }>Ou r Photo Gallery</h1>
             <div style={gridContainerStyle}>
                 {renderPhotos}
             </div>
@@ -128,7 +128,7 @@ const descriptionStyle = {
 };
 
 const titleStyle = {
-    fontSize: '1.1rem',
+    fontSize: '1.5rem',
     color: '#2c3e50',
     margin: 0,
     fontWeight: 500,

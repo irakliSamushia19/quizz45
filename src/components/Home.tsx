@@ -8,7 +8,6 @@ const containerStyle = {
     alignItems: 'center',
     padding: '3rem',
     backgroundColor: '#f4f6f9',
-    minHeight: '100vh'
 };
 
 const headingStyle = {
@@ -48,17 +47,6 @@ const descriptionStyle = {
     marginBottom: '2rem'
 };
 
-const exploreButtonStyle = {
-    padding: '0.8rem 2.5rem',
-    fontSize: '1.1rem',
-    color: '#fff',
-    backgroundColor: '#3498db',
-    border: 'none',
-    borderRadius: '30px',
-    cursor: 'pointer',
-    transition: 'background-color 0.3s ease',
-    fontWeight: '500',
-};
 
 const Home: React.FC = () => {
     const navigate = useNavigate();
@@ -84,7 +72,7 @@ const Home: React.FC = () => {
                     captivate and inspire you.
                 </p>
 
-                <button onClick={() => navigate('/gallery')} style={exploreButtonStyle}>
+                <button onClick={() => navigate('/gallery')} >
                     Explore the Gallery
                 </button>
             </div>

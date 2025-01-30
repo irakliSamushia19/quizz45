@@ -17,7 +17,7 @@ const Profile: React.FC = () => {
                 fontSize: '2.5rem',
                 textAlign: 'center'
             }}>
-                Made By {name || 'ნიკოლოზ'}
+                hell yeah {name || 'am jira'}
             </h1>
         </div>
     );
